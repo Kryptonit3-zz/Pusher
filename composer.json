@@ -1,6 +1,6 @@
 {
     "name": "Kryptonit3/Pusher",
-    "description": "Easy pusher integration.",
+    "description": "Easy Laravel pusher integration with a function.",
     "license": "MIT",
     "authors": [
       {
