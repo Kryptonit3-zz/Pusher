@@ -3,7 +3,7 @@
 if (!function_exists('pusher')) {
     function pusher()
     {
-        $pusher = new \Pusher( env('PUSHER_KEY'), env('PUSHER_SECRET'), env('PUSHER_APP_ID'), array( 'encrypted' => true ) );
+        $pusher = new \Pusher( config('kryptonit3_pusher.app_key'), config('kryptonit3_pusher.app_secret'), config('kryptonit3_pusher.app_id'), config('kryptonit3_pusher.options') );
 
         return $pusher;
     }
