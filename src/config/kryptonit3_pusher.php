@@ -10,9 +10,9 @@ return [
     | Set the public key, private key and site id provided by Pusher
     |
     */
-    'app_key'    => env('KRYPTONIT3_PUSHER_KEY'),
-    'app_secret'   => env('KRYPTONIT3_PUSHER_SECRET'),
-    'app_id'       => env('KRYPTONIT3_PUSHER_ID'),
+    'app_key'    => env('PUSHER_KEY'),
+    'app_secret'   => env(PUSHER_SECRET'),
+    'app_id'       => env('PUSHER_APP'),
 
     /*
     |--------------------------------------------------------------------------
