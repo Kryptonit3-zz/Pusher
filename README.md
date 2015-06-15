@@ -15,6 +15,7 @@ KRYPTONIT3_PUSHER_ID=YOUR-PUSHER-APP-ID
 Add the following to your Service Providers array
 ~~~
 Kryptonit3\Pusher\PusherServiceProvider::class,
+// for older PHP versions use 'Kryptonit3\Pusher\PusherServiceProvider',
 ~~~
 
 Publish the config file. (not required unless you want to change some default settings)
