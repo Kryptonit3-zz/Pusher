@@ -29,3 +29,7 @@ Example
 ~~~
 pusher()->trigger('my-channel-name', 'my-event-name', ['data' => true]);
 ~~~
+
+Here are some more examples - https://github.com/pusher/pusher-http-php#publishingtriggering-events
+
+Just replace the `$pusher->` with `pusher()->`
