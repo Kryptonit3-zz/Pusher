@@ -1,0 +1,24 @@
+{
+    "name": "Kryptonit3/Pusher",
+    "description": "Easy pusher integration.",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Jesse Szypulski",
+        "email": "jesse@cablework.co"
+      }
+    ],
+    "require": {
+        "php": ">=5.2",
+        "ext-curl": "*",
+        "pusher/pusher-php-server": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kryptonit3\\Pusher\\": "src/"
+        },
+        "files": [
+          "src/helpers.php"
+        ]
+    }
+}
