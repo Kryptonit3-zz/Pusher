@@ -2,7 +2,7 @@
 Easy Laravel pusher integration with a function.
 
 Installation
-`composer require Kryptonit3/Pusher`
+`composer require kryptonit3/pusher`
 
 Set environment variables:
 
