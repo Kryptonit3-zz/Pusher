@@ -1,6 +1,9 @@
 # Pusher
 Easy pusher integration with a function.
 
+Installation
+`composer require Kryptonit3/Pusher`
+
 Set environment variables:
 
 ~~~
