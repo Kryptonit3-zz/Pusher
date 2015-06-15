@@ -17,7 +17,7 @@ Add the following to your Service Providers array
 Kryptonit3\Pusher\PusherServiceProvider::class,
 ~~~
 
-Publish the config file to make any changes, will work by default though.
+Publish the config file.
 ~~~
 php artisan vendor:publish
 ~~~
