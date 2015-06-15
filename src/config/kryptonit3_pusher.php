@@ -12,7 +12,7 @@ return [
     */
     'app_key'    => env('PUSHER_KEY'),
     'app_secret'   => env(PUSHER_SECRET'),
-    'app_id'       => env('PUSHER_APP'),
+    'app_id'       => env('PUSHER_APP_ID'),
 
     /*
     |--------------------------------------------------------------------------
