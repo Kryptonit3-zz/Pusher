@@ -1,6 +1,8 @@
 # Pusher
 Easy Laravel pusher integration with a function.
 
+How this differs from other packages? Full autocompletion support with the Pusher PHP api.
+
 Installation
 `composer require kryptonit3/pusher`
 
