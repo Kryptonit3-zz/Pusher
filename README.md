@@ -7,10 +7,21 @@ Installation
 Set environment variables:
 
 ~~~
-PUSHER_KEY=YOUR-PUSHER-KEY
-PUSHER_SECRET=YOUR-PUSHER-SECRET
-PUSHER_APP_ID=YOUR-PUSHER-APP-ID
+KRYPTONIT3_PUSHER_KEY=YOUR-PUSHER-KEY
+KRYPTONIT3_PUSHER_SECRET=YOUR-PUSHER-SECRET
+KRYPTONIT3_PUSHER_ID=YOUR-PUSHER-APP-ID
 ~~~
+
+Add the following to your Service Providers array
+~~~
+Kryptonit3\Pusher\PusherServiceProvider::class,
+~~~
+
+Publish the config file to make any changes, will work by default though.
+~~~
+php artisan vendor:publish
+~~~
+It will then be located in `config\kryptonit3_pusher.php`
 
 you may now use all of the normal pusher calls with the `pusher()` helper function.
 
