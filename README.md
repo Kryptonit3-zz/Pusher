@@ -11,7 +11,7 @@ Set environment variables:
 ~~~
 PUSHER_KEY=YOUR-PUSHER-KEY
 PUSHER_SECRET=YOUR-PUSHER-SECRET
-PUSHER_APP=YOUR-PUSHER-APP-ID
+PUSHER_APP_ID=YOUR-PUSHER-APP-ID
 ~~~
 
 Add the following to your Service Providers array (config\app.php)
